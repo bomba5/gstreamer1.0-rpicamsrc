@@ -7,7 +7,8 @@ I suggest you to copy this recipe inside your custom layer, or into a brand-new 
 
 Suggested path should be like:
 ```$
-poky/meta-yourlayer/recipes-multimedia/gstreamer/.
+poky/meta-yourlayer/recipes-multimedia/gstreamer/gstreamer1.0-rpicamsrc.inc
+poky/meta-yourlayer/recipes-multimedia/gstreamer/gstreamer1.0-rpicamsrc_0.0.1.bb
 ```
 
 You can then test bitbake execution:
